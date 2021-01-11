@@ -1,0 +1,31 @@
+B.D.K Samaraweera - IT16521544
+
+**Individual component**
+ * This component is responsible for extracting images and video placeholder that is on the given psd file and mange them using a
+  frontend and resize and compress images according to devices (Mobile, iPad, Desktop)
+
+
+
+**Code running instructions**
+* 	Clone the project branch
+* 	Download and install dependencies 
+* 	Open pycharm 
+* 	Run api.py file
+* 	Open postman and http://127.0.0.1/uploader as a post method with body attribute with “file” and select 35.pdf from the project folder
+* 	Open Front_end folder & open index.html
+
+
+**Dependencies to run code**
+* 	IDE - Pycharm 
+* 	Browser – Google chrome
+* 	Python 3
+
+**Python	Packages**
+* 	Flask
+* 	Flask_cors
+* 	werkzeug.utils
+* 	Pillow
+* 	psd_tools
+* 	imutils
+* 	opencv
+* 	Postman

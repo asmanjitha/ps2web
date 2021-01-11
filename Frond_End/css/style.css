@@ -1,0 +1,60 @@
+/* .........................................Image zoom styles............................. */
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  
+
+/* ...............................Update and delete Button styles.......................... */
+
+div.edit-image:hover input {
+    display: block;
+}
+div.edit-image input {
+    position:absolute;
+    display:none;
+}
+div.edit-image input.update {
+    top:50%;
+    left:20%;
+}
+div.edit-image input.delete {
+    top:50%;
+    left:60%;
+}
+
+input{
+    text-decoration: none;
+}
+
+body{
+    background-color:#090e22 !important;
+
+}
+
+img{
+    height: 16vh !important;
+    width: 100% !important;
+}
+
+/* Preview */
+.preview{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background:transparent;
+ }
+ 
+ .preview img{
+    display: none;
+ }
+ /* Button */
+ /* .button{
+    border: 0px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 10px;
+ } */
